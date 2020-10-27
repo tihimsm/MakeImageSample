@@ -9,18 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    let cardImage = MakeSampleImage.make()!
+
     var body: some View {
-        VStack {
-            Spacer()
-            Text("QRCode").font(.largeTitle).padding(20)
-            Image(uiImage: UIImage.makeQRCode(text: "sample")!)
-            Spacer()
-        }
+        Image(uiImage: cardImage)
+            .frame(width: cardImage.size.width,
+                   height: cardImage.size.height,
+                   alignment: .center)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().previewLayout(.fixed(width: UIScreen.main.bounds.height, height: UIScreen.main.bounds.width))
     }
 }

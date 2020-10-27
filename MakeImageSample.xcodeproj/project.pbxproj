@@ -16,6 +16,8 @@
 		BE6DFC1F2547C78100FCB893 /* MakeImageSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DFC1E2547C78100FCB893 /* MakeImageSampleTests.swift */; };
 		BE6DFC2A2547C78100FCB893 /* MakeImageSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DFC292547C78100FCB893 /* MakeImageSampleUITests.swift */; };
 		BE6DFC392547CB3C00FCB893 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DFC382547CB3C00FCB893 /* UIImage+Extension.swift */; };
+		BE6DFC3B2547EC2700FCB893 /* MakeSampleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DFC3A2547EC2700FCB893 /* MakeSampleImage.swift */; };
+		BE6DFC3D2547FC1C00FCB893 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DFC3C2547FC1C00FCB893 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		BE6DFC292547C78100FCB893 /* MakeImageSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeImageSampleUITests.swift; sourceTree = "<group>"; };
 		BE6DFC2B2547C78100FCB893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6DFC382547CB3C00FCB893 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		BE6DFC3A2547EC2700FCB893 /* MakeSampleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeSampleImage.swift; sourceTree = "<group>"; };
+		BE6DFC3C2547FC1C00FCB893 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				BE6DFC072547C77E00FCB893 /* AppDelegate.swift */,
 				BE6DFC092547C77E00FCB893 /* SceneDelegate.swift */,
 				BE6DFC0B2547C77E00FCB893 /* ContentView.swift */,
+				BE6DFC3A2547EC2700FCB893 /* MakeSampleImage.swift */,
 				BE6DFC0D2547C78100FCB893 /* Assets.xcassets */,
 				BE6DFC122547C78100FCB893 /* LaunchScreen.storyboard */,
 				BE6DFC152547C78100FCB893 /* Info.plist */,
@@ -143,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				BE6DFC382547CB3C00FCB893 /* UIImage+Extension.swift */,
+				BE6DFC3C2547FC1C00FCB893 /* String+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -282,6 +288,8 @@
 				BE6DFC0A2547C77E00FCB893 /* SceneDelegate.swift in Sources */,
 				BE6DFC0C2547C77E00FCB893 /* ContentView.swift in Sources */,
 				BE6DFC392547CB3C00FCB893 /* UIImage+Extension.swift in Sources */,
+				BE6DFC3D2547FC1C00FCB893 /* String+Extension.swift in Sources */,
+				BE6DFC3B2547EC2700FCB893 /* MakeSampleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
