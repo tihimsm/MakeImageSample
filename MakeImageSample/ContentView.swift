@@ -10,7 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Spacer()
+            Text("QRCode").font(.largeTitle).padding(20)
+            Image(uiImage: UIImage.makeQRCode(text: "sample")!)
+            Spacer()
+        }
     }
 }
 
